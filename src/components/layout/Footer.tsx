@@ -19,7 +19,7 @@ export function Footer() {
           <ScrollReveal>
             <div>
               <a href="#" className="flex items-center gap-3 mb-6">
-                <img src="/logo.jpg" alt="Heaven Fitness Logo" className="h-12 w-auto" />
+                <img src={`${import.meta.env.BASE_URL}logo.jpg`} alt="Heaven Fitness Logo" className="h-12 w-auto" />
                 <span className="font-logo text-xl tracking-wide text-white">
                   Heaven Fitness
                 </span>

@@ -32,7 +32,7 @@ export function Navbar() {
         <div className="container-wide flex items-center justify-between h-20 px-6 md:px-8 lg:px-12">
           {/* Logo */}
           <a href="#" className="flex items-center gap-3">
-            <img src="/logo.jpg" alt="Heaven Fitness Logo" className="h-12 w-auto" />
+            <img src={`${import.meta.env.BASE_URL}logo.jpg`} alt="Heaven Fitness Logo" className="h-12 w-auto" />
             <span className="font-logo text-2xl tracking-wide text-white hidden sm:block">
               Heaven Fitness
             </span>
